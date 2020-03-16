@@ -15,7 +15,15 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
-img {
-  display: block;
-  object-fit: cover;
+.bg {
+  /* The image used */
+  background-image: url("images/albertaMountain.JPG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
