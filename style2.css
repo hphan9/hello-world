@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  grid-template-areas:
+    'navigation_main'
+    'contact_form';
+}
+#navigation_main {
+  grid-area: navigation_main;
+}
+#contact_form {
+  padding-top: 5%;
+  grid-area: contact_form;
+}
+h3 {
+  font-family: 'Sacramento', cursive;
+  color: white;
+}
