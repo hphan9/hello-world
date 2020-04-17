@@ -1,0 +1,72 @@
+/** Add any CSS you need to this file. */
+/* add media query */
+body,
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+/* display page layout: header main footer*/
+
+body {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'store'
+    'main'
+    'footer';
+  
+ color:  #302F32;
+  font-family:  'Alice', serif;
+    
+}
+/* change header include nav bar */
+
+#navigation_bar {
+  grid-area: navigation;
+}
+/* CSS for menu */
+
+
+main {
+  /*whitesmoke*/
+  padding-left:5%;
+  padding-right: 5%;
+  background-color: whitesmoke;
+  grid-area: main;
+}
+#subTitle {
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  color: black;
+}
+#page_footer {
+  grid-area: footer;
+  display: flex;
+  background-color: #7B7270;
+}
+#page_footer nav a{
+  color: white;
+}
+#email_form {
+  flex: 1;
+}
+#footer_address {
+  flex: 2;
+}
+
+h3,h5 {
+  font-family: 'Sacramento', cursive;
+}
+
+.card {
+  background-color: transparent;
+}
+li{
+  cursor: pointer;
+}
+.card-title{
+  cursor: pointer;
+  font-weight: 600;
+}

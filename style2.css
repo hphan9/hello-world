@@ -1,0 +1,45 @@
+body {
+  display: grid;
+  grid-template-areas:
+    'navigation_main'
+    'header'
+    'contact_form';
+  
+}
+main{
+  background-image: url("images/alina-grubnyak-IsxaFsXi2rs-unsplash.jpg") ;
+  background-size: cover;
+  color: #6F6863;
+  font-family:  'Alice', serif;
+}
+#navigation_main {
+  grid-area: navigation_main;
+  background-color: #ded6d3;
+  color:8FA09F
+}
+.navbar-nav li a { color:#8FA09F}
+#contact_form {
+  grid-area: contact_form;
+}
+
+h3,h5 {
+  font-family: 'Sacramento', cursive;
+  color: #17A2B9;
+  font-weight: 500;
+}
+#navigation_main li a{
+  color: #17A2B9;
+}
+#page_footer {
+  grid-area: footer;
+  display: flex;
+}
+#page_footer nav a i{
+color: #17A2B9;
+padding: 5%}
+#email_form {
+  flex: 1;
+}
+#footer_address {
+  flex: 2;
+}
